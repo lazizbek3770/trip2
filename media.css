@@ -36,7 +36,17 @@
     .contact_text{
         font-size: 18px;
     }
-
+    .catalog_logo{
+        margin-top: 25px;
+        margin-bottom: 30px;
+   }
+   .contact_title{
+        margin-top: 60px;
+        margin-bottom: 20px;
+   }
+   .footer{
+    margin-top: 35px;
+ }
 }
 
 @media(max-width:800px) {
@@ -57,16 +67,20 @@
         font-size: 16px;
     }
     .contact_title{
-       margin-top: 55px;
-       margin-bottom: 35px; 
-    }
+        margin-top: 40px;
+   }
+   .catalog_title{
+    font-size: 20px;
+ }
+ .footer{
+    margin-top: 20px;
+ }
     
 }
 @media(max-width:700px) {
     .menu{
         display: block;
-        margin-left: auto;
-        margin-right: 15px;
+        order: -1;
     }
     .menu:focus+.nav_list{
         transform: translateX(0);
@@ -84,17 +98,19 @@
     .nav_list{
         flex-direction: column;
         position: absolute;
-        background-color: brown;
+        background-color: burlywood;
         top: 0;
-        right: 0;
+        left: 0;
         padding: 20px;
         padding-top: 40px;
         text-align: center;
-        transform: translateX(100%);
+        transform: translateX(-100%);
         transition: 0.5s;
+        height: 100%;
     }
     .nav_link{
         padding: 5px;
+        color: black;
     }
     .nav_logo img{
         width: 80px;
@@ -117,13 +133,20 @@
      .contact_title{
         margin-bottom: 50px;
     }
-    .catalog_logo{
-        margin-top: 50px;
-        margin-bottom: 45px;
-   }
    .contact_title{
     margin-top: 55px;
     margin-bottom: 35px; 
+ }
+   .catalog_logo{
+    margin-top: 20px;
+    margin-bottom: 30px;
+ }
+ .contact_title{
+    margin-top: 35px;
+    margin-bottom: 15px; 
+ }
+ .catalog_title{
+    font-size: 20px;
  }
 }
 
@@ -158,14 +181,24 @@
     .catalog_title{
         font-size: 20px;
     }
-    .catalog_logo{
-         margin-top: 65px;
-         margin-bottom: 10px;
-    }
-    .contact_title{
-        margin-top: 55px;
-        margin-bottom: 35px; 
-     }
+     .catalog_logo{
+        margin-top: 20px;
+        margin-bottom: 15px;
+   }
+   .contact_title{
+    margin-top: 20px;
+    margin-bottom: 25px; 
+   }
+   .footer{
+    margin-top: 20px;
+   }
+   .trip_title{
+    margin-top: 20px;
+    margin-bottom: 20px
+ }
+ .trip_text{
+    font-size: 16px;
+ }
 }
 @media(max-width:400px) {
     .intro{
@@ -193,5 +226,20 @@
     .footer_link{
         font-size: 14px;
     }
+    .catalog_logo{
+        margin-top: 35px;
+        margin-bottom: 20px;
+     }
+     .trip_title{
+        margin-top: 20px;
+        font-size: 35px;
+     }
+     .catalog_logo{
+        font-size: 35px;
+     }
+     .contact_title{
+        font-size: 35px;
+        margin-top: 30px;
+     }
     
 }

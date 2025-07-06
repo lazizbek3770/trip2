@@ -128,8 +128,7 @@
 .trip_text{
     max-width: 545px;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 100%;    
+    font-size: 18px;   
 }
 .trip_img{
     max-width: 100%;
@@ -148,7 +147,6 @@
     align-items: center;
     justify-content: flex-start;
     gap: 20px;
-    height: 410px;
     margin-right: 0 auto;
 }
 .catalog_title:hover{
